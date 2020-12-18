@@ -1,2 +1,2 @@
-# gengyuan.github.io
+# gengyuanzhang.github.io
 Gengyuan Zhang's personal website
