@@ -11,24 +11,25 @@ Very interesting, why I didn't learn Computer Science major before ~~(>_<)~~?
 PS: Below is a recent dish that we ate at home ^_^
 
 <style>
-.img-container {
+.column {
   float: left;
   width: 33.33%;
   padding: 5px;
 }
 
-.clearfix::after {
+.row::after {
   content: "";
   clear: both;
   display: table;
 }
+
 <style>
 
-<div class="clearfix">
-  <div class="img-container">
+<div class="row">
+  <div class="column">
     <img src="/pics/meal1.jpg" alt="Pickled Fish" style="width:100%">
   </div>
-  <div class="img-container">
+  <div class="column">
     <img src="/pics/meal2.jpg" alt="Chicken" style="width:100%">
   </div>
 </div>
