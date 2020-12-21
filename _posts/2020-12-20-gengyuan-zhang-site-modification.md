@@ -16,14 +16,12 @@ PS: Below is a recent dish that we ate at home ^_^
   width: 33.33%;
   padding: 5px;
 }
-
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
-
-<style>
+</style>
 
 <div class="row">
   <div class="column">
