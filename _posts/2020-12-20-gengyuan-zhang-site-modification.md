@@ -10,7 +10,7 @@ Very interesting, why I didn't learn Computer Science major before ~~(>_<)~~?
 
 PS: Below is a recent dish that we ate at home ^_^
 
-<div class="row">
+<div class="clearfix">
   <div class="column">
     <img src="/pics/meal1.jpg" alt="Pickled Fish" style="width:100%">
   </div>
