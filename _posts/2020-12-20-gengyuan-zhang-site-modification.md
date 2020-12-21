@@ -8,4 +8,4 @@ Well. I made minor changes and pushed to the website, although it required more 
 
 Very interesting, why I didn't learn Computer Science major before ~~(>_<)~~? Learning computer science might also be a great experience!
 
-<img src="/pics/meal1.jpg" alt="Pickled Fish">
+<img src="/pics/meal1.jpg" alt="Pickled Fish" width="500" height="600">
