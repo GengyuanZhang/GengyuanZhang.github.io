@@ -8,4 +8,6 @@ Well. I made minor changes and pushed to the website, although it required more 
 
 Very interesting, why I didn't learn Computer Science major before ~~(>_<)~~? Learning computer science might also be a great experience!
 
+PS: Below is a recent dish that we ate at home ^_^
+
 <img src="/pics/meal1.jpg" alt="Pickled Fish" width="600" height="400">
