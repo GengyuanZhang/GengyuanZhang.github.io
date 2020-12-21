@@ -10,6 +10,7 @@ Very interesting, why I didn't learn Computer Science major before ~~(>_<)~~?
 
 PS: Below is a recent dish that we ate at home ^_^
 
+<style>
 .img-container {
   float: left;
   width: 33.33%;
@@ -21,6 +22,7 @@ PS: Below is a recent dish that we ate at home ^_^
   clear: both;
   display: table;
 }
+<style>
 
 <div class="clearfix">
   <div class="img-container">
