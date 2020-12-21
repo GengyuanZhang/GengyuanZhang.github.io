@@ -8,7 +8,7 @@ Well. I made minor changes and pushed to the website, although it required more 
 
 Very interesting, why I didn't choose Computer Science major before ~~(>_<)~~? 
 
-PS: Below is recent dishes that we ate at home ^_^
+PS: Below are the recent dishes that we ate at home ^_^
 
 <style>
 .column {
