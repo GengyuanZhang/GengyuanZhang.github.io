@@ -13,3 +13,5 @@ Gengyuan installed Node.js, npm as well as Angular CLI on his local. Then manage
 Deployment of Angular front-end -- success!
 
 Right now, two parts to take care of when Gengyuan deploying front-end on his local next time: 1) Adding environment files 2) Setting "skipLibCheck": true in tsconfig.json.
+
+The front-end angular on local is on http://localhost:4200/

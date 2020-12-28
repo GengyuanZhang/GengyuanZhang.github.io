@@ -22,9 +22,13 @@ Gengyuan did the following things today:
 
 8) Install Windows Terminal
 
-9) (In-progress) Set your distribution version to (WSL 1) or WSL 2
+9) Set your distribution version to (WSL 1) or WSL 2 : After checking Windows updates and restart, it finally works!
 
 10) Ensure that Docker Desktop is [configured to use the WSL2 backend](https://docs.docker.com/docker-for-windows/wsl/)
+
+11) Create the first test Laravel Project - /Users/gyzha/example-app
+
+12) The Laravel application can be accessed by http://localhost, success!
 
 
 
