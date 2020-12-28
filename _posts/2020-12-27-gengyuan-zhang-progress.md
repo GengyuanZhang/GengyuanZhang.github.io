@@ -11,3 +11,5 @@ Gengyuan installed Node.js, npm as well as Angular on his local. Then managed to
 }
 
 Deployment of Angular front-end -- success!
+
+Right now, two parts to take care of when Gengyuan deploy front-end on his local next time: 1) Adding environment files 2) Setting "skipLibCheck": true in tsconfig.json.
