@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gengyuan's front-end progress!"
+title: "Gengyuan's front-end deployment progress!"
 date: 2020-12-27
 ---
 
