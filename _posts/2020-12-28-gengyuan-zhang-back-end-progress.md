@@ -24,7 +24,7 @@ Gengyuan did the following things today:
 
 9) Set your distribution version to (WSL 1) or WSL 2
 
-10) ensure that Docker Desktop is [configured to use the WSL2 backend](https://docs.docker.com/docker-for-windows/wsl/)
+10) Ensure that Docker Desktop is [configured to use the WSL2 backend](https://docs.docker.com/docker-for-windows/wsl/)
 
 11)
 
