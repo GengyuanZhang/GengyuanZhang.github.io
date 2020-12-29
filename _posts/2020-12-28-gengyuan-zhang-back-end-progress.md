@@ -32,7 +32,7 @@ Gengyuan did the following things today:
 
 13) Installed the PHP language (test in cmd by "php -v") and Composer (test in cmd by "composer -V")
 
-14)
+14) Using PHP and Composer to create Laravel project (much more convenient). Note: be sure to follow [this](https://stackoverflow.com/questions/52734707/your-requirements-could-not-be-resolved-to-an-installable-set-of-packages-for-la) before using composer. one of the internal php files needs modification.
 
 
 
