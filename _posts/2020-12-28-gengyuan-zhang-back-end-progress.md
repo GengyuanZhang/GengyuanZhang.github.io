@@ -28,7 +28,11 @@ Gengyuan did the following things today:
 
 11) Create the first test Laravel Project - /Users/gyzha/example-app
 
-12) The Laravel application can be accessed by http://localhost, success!
+12) The test Laravel application can be accessed by http://localhost, success!
+
+13) Installed the PHP language (test in cmd by "php -v") and Composer (test in cmd by "composer -V")
+
+14)
 
 
 
