@@ -34,7 +34,9 @@ Gengyuan did the following things today:
 
 14) Using PHP and Composer to create Laravel project (much more convenient). Note: be sure to follow [this](https://stackoverflow.com/questions/52734707/your-requirements-could-not-be-resolved-to-an-installable-set-of-packages-for-la) before using composer. one of the internal php file (php.ini in php7 folder) needs modification:
 
- extension=fileinfo needs to be uncomment.
+ extension=fileinfo 
+ 
+ needs to be uncomment.
 
 
 
