@@ -16,6 +16,8 @@ Gengyuan did the followings today:
 
 Backend really takes another day to get it finished.
 
+4) Error when importing MySQL database, solved by [this](https://stackoverflow.com/questions/20488311/error-1049-42000-unknown-database-localized-wordpress-database)
+
 Notes: 
 1) Next time when I run the backend on my local, I need to update the .env file as in the documentation.
 
