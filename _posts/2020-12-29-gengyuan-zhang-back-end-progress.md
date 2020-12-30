@@ -23,7 +23,7 @@ Notes:
 
 2) front-end running by "ng serve"; back-end running by "php artisan serve --port==XXXX"
 
-3) PHP does not naturally allow connection with database. One needs to enable mysqli extension, especially in the php.ini file, one needs to uncomment:
+3) PHP7 does not naturally allow connection with database. One needs to enable mysqli extension, especially in the php.ini file, one needs to uncomment:
 
 extension=pdo_mysql.so
 extension=mysqli
