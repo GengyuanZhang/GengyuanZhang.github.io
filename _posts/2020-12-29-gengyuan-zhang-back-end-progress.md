@@ -22,3 +22,10 @@ Notes:
 1) Next time when I run the backend on my local, I need to update the .env file as in the documentation.
 
 2) front-end running by "ng serve"; back-end running by "php artisan serve --port==XXXX"
+
+3) PHP does not naturally allow connection with database. One needs to enable mysqli extension, especially in the php.ini file, one needs to uncomment:
+
+extension=pdo_mysql.so
+extension=mysqli
+
+Then it will connect with db successfully.
