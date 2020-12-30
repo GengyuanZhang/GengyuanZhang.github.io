@@ -18,6 +18,9 @@ Backend really takes another day to get it finished.
 
 4) Error when importing MySQL database, solved by [this](https://stackoverflow.com/questions/20488311/error-1049-42000-unknown-database-localized-wordpress-database)
 
+5) Added some files that won't be tracked and won't be added to github, [here](https://docs.github.com/en/free-pro-team@latest/github/using-git/ignoring-files) is the documentation. I selected the the last one : "Excluding local files without creating a .gitignore file".
+
+
 Notes: 
 1) Next time when I run the backend on my local, I need to update the .env file as in the documentation.
 
