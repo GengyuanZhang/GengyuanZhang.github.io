@@ -29,3 +29,5 @@ extension=pdo_mysql.so
 extension=mysqli
 
 Then it will connect with db successfully. Two helpful links here: [one](https://stackoverflow.com/questions/42909397/laravel-5-4-on-php-7-0-pdo-exception-could-not-find-driver-mysql), [the other](https://laracasts.com/discuss/channels/laravel/could-not-find-driver-error-in-laravel-55)
+
+Today so much time spent on the connection of local backend application and the local MySQL database. 
