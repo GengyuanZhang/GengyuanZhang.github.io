@@ -11,4 +11,4 @@ One of the company site is a combination of Angular (front-end) and Laravel (bac
 Yesterday, Gengyuan successfully connected Angular-Laravel-MySQL database for one site in his local, he can do more complex changes then! And for the other site, he will help to see if he could help figure it out the stuck issue.
 
 Angular Front-end: npm install, then ng serve
-Laravel Back-end: composer install, then php artisan serve
+Laravel Back-end: composer install, then php artisan serve --port=1024
