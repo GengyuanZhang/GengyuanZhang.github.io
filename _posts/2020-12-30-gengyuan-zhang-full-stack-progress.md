@@ -9,3 +9,6 @@ Gengyuan read two very helpful webpage, one is [comparison of Django vs Laravel 
 One of the company site is a combination of Angular (front-end) and Laravel (back-end), the other is also using Angular as the front-end, we will see if we will use Laravel or NodeJS as the backend, it looks NodeJS is much better than Laravel.
 
 Yesterday, Gengyuan successfully connected Angular-Laravel-MySQL database for one site in his local, he can do more complex changes then! And for the other site, he will help to see if he could help figure it out the stuck issue.
+
+Angular Front-end: npm install, then ng serve
+Laravel Back-end: composer install, then php artisan serve
