@@ -22,3 +22,5 @@ After download or clone from Github:
 npm install 
 
 npm start
+
+3) Data API in data section
