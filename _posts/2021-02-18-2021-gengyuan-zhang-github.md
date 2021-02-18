@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Some summary about Github"
-date: 2021-01-18
+title: "Some notes about Github"
+date: 2021-02-18
 ---
 
 Some useful notes are as follows:
@@ -37,6 +37,12 @@ Some useful notes are as follows:
 8) Switch to different branches:
 
 <code> git checkout staging</code> or <code> git checkout master </code>
+
+9) Remote branches.
+
+Show remote branches: <code> git branch -r </code> 
+
+Show all branches: <code> git branch -a </code>
 
 
 
