@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some notes about Github"
+title: "Some notes about Github command"
 date: 2021-02-18
 ---
 
@@ -43,6 +43,8 @@ Some useful notes are as follows:
 Show remote branches: <code> git branch -r </code> 
 
 Show all branches: <code> git branch -a </code>
+
+
 
 
 

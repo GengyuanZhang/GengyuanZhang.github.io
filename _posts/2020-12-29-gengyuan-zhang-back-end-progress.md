@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gengyuan's back end progress!"
+title: "Gengyuan's back end as well as database progress!"
 date: 2020-12-29
 ---
 
