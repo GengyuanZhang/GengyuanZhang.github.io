@@ -10,7 +10,7 @@ Some useful notes are as follows:
 
 2）My exercise for today:
 
-<code>
+<code class="sql">
 select * 
 from thequantedge.users; -- Select all columns from the table named by 'users'
 
