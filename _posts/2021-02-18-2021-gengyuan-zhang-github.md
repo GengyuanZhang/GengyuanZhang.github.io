@@ -45,7 +45,10 @@ Show remote branches: <code> git branch -r </code>
 Show all branches: <code> git branch -a </code>
 
 
-
+<script>
+	var date = document.lastModified;
+	document.write("Last Modified: "+date);
+</script>
 
 
 

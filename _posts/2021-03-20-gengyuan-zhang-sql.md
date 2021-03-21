@@ -15,6 +15,11 @@ Some useful notes are as follows:
 
 3) Added the "Last Modified time" for each post.
 
+<script>
+	var date = document.lastModified;
+	document.write("Last Modified: "+date);
+</script>
+
  
 
 

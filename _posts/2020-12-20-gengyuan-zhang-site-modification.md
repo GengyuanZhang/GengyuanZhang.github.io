@@ -31,3 +31,8 @@ PS: Below are the recent dishes that we ate at home ^_^
     <img src="/pics/meal2.jpg" alt="Chicken" style="width:100%">
   </div>
 </div>
+
+<script>
+	var date = document.lastModified;
+	document.write("Last Modified: "+date);
+</script>

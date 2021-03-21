@@ -24,3 +24,8 @@ npm install
 npm start
 
 3) Data API in data section
+
+<script>
+	var date = document.lastModified;
+	document.write("Last Modified: "+date);
+</script>

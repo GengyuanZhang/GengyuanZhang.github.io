@@ -12,3 +12,8 @@ Yesterday, Gengyuan successfully connected Angular-Laravel-MySQL database for on
 
 Angular Front-end: npm install, then ng serve
 Laravel Back-end: composer install, then php artisan serve --port=1024
+
+<script>
+	var date = document.lastModified;
+	document.write("Last Modified: "+date);
+</script>

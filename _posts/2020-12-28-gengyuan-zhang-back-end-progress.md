@@ -38,6 +38,11 @@ Gengyuan did the following things today:
  
  needs to be uncomment.
 
+ <script>
+	var date = document.lastModified;
+	document.write("Last Modified: "+date);
+</script>
+
 
 
 
