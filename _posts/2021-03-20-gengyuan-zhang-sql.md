@@ -13,6 +13,8 @@ Some useful notes are as follows:
 <p><a href="/code/SQL-test.txt" download> Gengyuan's Excercise txt version</a></p>
 <p><a href="/code/SQL-test.sql" download> Gengyuan's Excercise sql version</a></p>
 
+3) Added the "Last Modified time" for each post.
+
  
 
 
