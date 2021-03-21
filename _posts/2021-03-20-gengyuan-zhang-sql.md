@@ -9,6 +9,7 @@ Some useful notes are as follows:
 1) How to "comment in MySQL workbench" can be found [here](https://www.mysqltutorial.org/mysql-comment/)
 
 2）My exercise for today:
+
 <code>
 select * 
 from thequantedge.users; -- Select all columns from the table named by 'users'
@@ -317,6 +318,7 @@ select first_name, last_name, username
 from users
 where is_active = 1 and first_name = 'David' and last_name = 'etkin'
 order by username; -- usage of UNION (default deleting the duplicated row), UNION ALL(keep all rows)
+
 </code>
 
 
