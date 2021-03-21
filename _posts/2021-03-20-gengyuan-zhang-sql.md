@@ -10,7 +10,7 @@ Some useful notes are as follows:
 
 2）My exercise for today:
 
-<p><a href="code_files/Gengyuan's test.sql"> Gengyuan's Excercise</a></p>
+<p><a href="/_posts/code_files/Gengyuan's test.sql"> Gengyuan's Excercise</a></p>
 
 <code class="sql">
 select * 
