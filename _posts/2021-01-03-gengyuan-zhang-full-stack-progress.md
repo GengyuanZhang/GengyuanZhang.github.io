@@ -12,8 +12,4 @@ It looks Putty is a little faster than MobaXterm.
 
 In the local deployment of backend Laravel, it looks the "Extensions" folder is wrongly named by "Exceptions".
 
-<script>
-	var date = document.lastModified;
-	document.write("Last Modified: "+date);
-</script>
 
