@@ -17,7 +17,7 @@ Some useful notes are as follows:
 
 <script>
 	var date = document.lastModified;
-	document.write("Last Modified: "+date);
+	document.write("Last Modified: "+date+" EST");
 </script>
 
  
