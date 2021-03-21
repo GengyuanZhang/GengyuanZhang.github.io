@@ -8,9 +8,9 @@ Some useful notes are as follows:
 
 1) How to "comment in MySQL workbench" can be found [here](https://www.mysqltutorial.org/mysql-comment/)
 
-2）My exercise for today:
+2）My exercise for today could be downloaded below:
 
-<p><a href="/_posts/code_files/Gengyuan-test.txt"> Gengyuan's Excercise</a></p>
+<p><a href="/_posts/code_files/Gengyuan-test.txt" download> Gengyuan's Excercise</a></p>
 
 <code class="sql">
 select * 
