@@ -306,7 +306,181 @@ from users
 where is_active = 1 and first_name = 'David' and last_name = 'etkin'
 order by username; -- usage of UNION (default deleting the duplicated row), UNION ALL(keep all rows)
 
+select * from sys.sys_config;
+select * from test.activity_logs;
+select * from test.users;
+
+select database(); -- print the default db schema, null means no default now. Default can be set by right click
+
+-- now we changed the default db to 'test' instead of 'thequantedge'
+select * from memberships;
+
+insert into memberships
+values('30', 'test plan','for test purpose',
+'Welcome to the TQE','test product','0.05',
+'0.05','1','Month','0', null, '0.00', '7',
+ '30', 'day', '0', '0', null, null,
+ '2021-03-21', null, null, null); -- add a new test row with id of 30 at the bottom
  
+insert into memberships(id, name, description,
+						confirmation_message, custom_message,
+                        initial_payment, billing_amount, cycle_number, 
+                        cycle_period, billing_limit, trial_url, trial_amount,
+                        trial_limit, expiration_number, expiration_period, 
+                        display_order, allow_signups, expiration_date,
+                        deleted_at, created_at, updated_at, apple_product_id,
+                        stripe_product_id)
+values('31', 'test plan1','for test purpose',
+'Welcome to the TQE','test product','0.05',
+'0.05','1','Month','0', null, '0.00', '7',
+ '30', 'day', '0', '0', null, null,
+ '2021-03-21', null, null, null);  -- add another new test row with id of 31 at the bottom, with INTO
+
+ select * from memberships; 
+ insert into memberships(id, name, description,
+						confirmation_message, custom_message,
+                        initial_payment)
+values('32', 'test plan2','for test purpose',
+'Welcome to the TQE','test product','0.05');  -- add another new test row with id of 32 at the bottom, with INTO and only partly filled
+ 
+create table memberships_test
+(
+	id integer NOT NULL PRIMARY KEY,
+	name CHAR(20) NOT NULL,
+	confirmation_message CHAR(30) NOT NULL
+);
+
+insert into memberships_test(id,
+							name,
+                            confirmation_message)
+select 	id, 
+		name,
+        confirmation_message
+from memberships;  -- insert by select from another table, this way can insert multiple rows 
+
+create table memberships_test1 as 
+select * from memberships_test; -- create test1 with the same information copied from test
+
+select * from memberships_test1;
+
+SET SQL_SAFE_UPDATES = 0; -- unlock the safe updates 
+UPDATE memberships_test1
+SET confirmation_message = 'hello world!',
+	name = concat('test plan ', (id-30))
+WHERE id in ('30','31','32'); -- a more complicated updates
+SET SQL_SAFE_UPDATES=1; -- lock the safe updates again 
+
+
+SET SQL_SAFE_UPDATES = 0; -- unlock the safe updates 
+delete from memberships_test
+where id = '32'; -- delete row 
+SET SQL_SAFE_UPDATES = 1; -- lock the safe updates 
+SELECT * FROM memberships_test;
+
+create table memberships_test2
+(
+	id integer NOT NULL PRIMARY KEY,
+	name CHAR(20) NOT NULL,
+    price decimal(8,2) NOT NULL DEFAULT 1,
+	confirmation_message text(100) 
+);
+select * from memberships_test2;
+
+select CURRENT_DATE(); -- current date 
+
+select * from memberships_test;
+
+ALTER TABLE memberships_test
+ADD price decimal(8,2) Not NULL default 1; -- add new column named by price
+
+ALTER TABLE memberships_test
+DROP COLUMN price; -- delete column
+
+create table memberships_test_for_drop
+(
+	id integer NOT NULL PRIMARY KEY,
+	name CHAR(20) NOT NULL,
+    price decimal(8,2) NOT NULL DEFAULT 1,
+	confirmation_message text(100) 
+);  -- create the table for drop below 
+drop table memberships_test_for_drop;  -- delete the whole table
+
+select * from memberships;
+create view memberships_test_view as
+select id, name, initial_payment
+from memberships;  -- create a sample view
+select * from memberships_test_view; -- see the content in the view
+
+select * from users;
+create view users_test_view as
+select id, concat(first_name, ' ', last_name) as full_name, username, email
+from users; -- creat a view with customized name 
+select * from users_test_view; -- see the content in the view
+
+-- create a storing/saving process  To be continued..
+
+select * from users;
+
+create table memberships_test_for_drop
+(
+	id integer NOT NULL,
+	name CHAR(20) NOT NULL,
+    price decimal(8,2) NOT NULL DEFAULT 1,
+	confirmation_message text(100) 
+);  -- create the table for drop below 
+
+-- TRANSACTION -- To be continued
+
+-- CURSOR -- To be continued
+
+-- CONSTRAINT  -- To be continued
+
+create table memberships_test_for_drop
+(
+	id integer NOT NULL PRIMARY KEY,
+	name CHAR(20) NOT NULL,
+    price decimal(8,2) NOT NULL DEFAULT 1,
+	confirmation_message text(100) 
+);  -- create the table for drop below with PRIMARY KEY
+drop table memberships_test_for_drop;  -- delete the whole table
+
+create table memberships_test_for_drop
+(
+	id integer NOT NULL,
+	name CHAR(20) NOT NULL,
+    price decimal(8,2) NOT NULL DEFAULT 1,
+	confirmation_message text(100) 
+);  -- create the table for drop below with PRIMARY KEY
+
+alter table memberships_test_for_drop
+add constraint primary key (id); -- alternative way (CONSTRAINT) of setting the PRIMARY KEY 
+
+drop table memberships_test_for_drop;  -- delete the whole table
+
+-- REFERENCES -- more details in the book
+
+create table memberships_test_for_drop
+(
+	id integer NOT NULL,
+	name CHAR(20) NOT NULL,
+    price decimal(8,2) NOT NULL DEFAULT 1 CHECK (price > 0),
+	confirmation_message text(100) 
+);  -- create the table for drop below with CHECK
+
+alter table memberships_test_for_drop
+add constraint primary key (id)
+add constraint check (price > 0); -- alternative way (CONSTRAINT) of setting the CHECK
+
+drop table memberships_test_for_drop;  -- delete the whole table
+
+
+ 
+
+
+
+
+ 
+
 
 
 
