@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gengyuan's TPE site progress!"
+title: "Gengyuan's TPE commmands!"
 date: 2021-01-07
 ---
 
@@ -22,6 +22,7 @@ After download or clone from Github:
 npm install 
 
 npm start
+
 
 3) Data API in data section
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some notes about Github command"
+title: "Github Commands Summary"
 date: 2021-02-18
 ---
 
