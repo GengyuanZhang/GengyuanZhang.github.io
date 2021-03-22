@@ -473,6 +473,20 @@ add constraint check (price > 0); -- alternative way (CONSTRAINT) of setting the
 
 drop table memberships_test_for_drop;  -- delete the whole table
 
+select * from memberships_test;
+
+select data_type 
+from information_schema.columns
+where table_schema = 'test'
+and table_name = 'memberships_test'; -- data_type of all the columns in a table 
+
+select data_type 
+from information_schema.columns
+where table_schema = 'test'
+and table_name = 'memberships_test'
+and column_name = 'price';   -- data_type of a certain column 
+
+
 
  
 
