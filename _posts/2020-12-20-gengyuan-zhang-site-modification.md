@@ -8,7 +8,7 @@ Well. I made minor changes and pushed to the website, although it required more 
 
 Very interesting.
 
-PS: Below are the recent dishes that we ate at home ^_^
+PS: Below are the recent dishes that were made at home ^_^
 
 <style>
 .column {
